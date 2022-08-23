@@ -1,4 +1,6 @@
-import { exec } from "child_process";
+import {
+  exec
+} from "child_process";
 
 const speedTest = () => new Promise((resolve, reject) => {
   console.warn('Evaluando...');
@@ -16,7 +18,7 @@ speedTest()
     console.table({
       Ping: data?.ping,
       Descarga: data?.download,
-      Subida: data?.upload,
+      Subida: data?.upload
     });
     console.timeEnd('Resultado en');
   })
