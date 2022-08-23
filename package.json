@@ -1,0 +1,13 @@
+{
+  "name": "basic-speed-test-nodejs",
+  "version": "1.0.0",
+  "description": "Basic speed test with NodeJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Santiago Martínez Bota (santimb96 on GitHub)",
+  "license": "UNLICENSED"
+}
