@@ -1,2 +1,3 @@
 cls
-npm start
+
+powershell.exe -ExecutionPolicy Bypass -File checkIfPackageExist.ps1
